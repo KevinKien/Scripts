@@ -23,9 +23,10 @@ chkconfig --add nginx
 chkconfig --level 345 nginx on
 
 echo "
-------------------------------------------------
+----------------------------------------------------------------------------
 NGINX COMPLETED INSTALL
 Checking the nginx version, should be $NGINX_VERSION and you should see our modules
+----------------------------------------------------------------------------
 "
 nginx -V
 
