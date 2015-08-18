@@ -69,7 +69,7 @@ Nginx_Ubuntu() {
     make install
   
     sudo useradd -r nginx
-    wget -O /etc/init.d/nginx http://ctf.ksec.info/nginx-ubuntu
+    sudo wget -O /etc/init.d/nginx http://ctf.ksec.info/nginx-ubuntu
     sudo chmod +x /etc/init.d/nginx
 
     chkconfig --add nginx
