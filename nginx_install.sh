@@ -72,6 +72,7 @@ Checking the nginx version, should be $NGINX_VERSION and you should see our modu
   sudo /etc/init.d/nginx start
 }
 
+# MAIN
 
 OS=`uname -v | awk '{split($1,array,"-")} END{print array[2]}'`
 
